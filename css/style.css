@@ -231,24 +231,23 @@ h1 {
 .about-stats {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 25px;
-    margin-top: 50px;
-    padding: 40px 20px;
+    gap: 10px;
+    margin-top: 25px;
+    padding: 20px 20px;
     background: linear-gradient(135deg, #e8f4f8 0%, #d5e8f0 100%);
     border-radius: 20px;
 }
-
 .stat-item {
     text-align: center;
     padding: 20px;
     background: white;
     border-radius: 15px;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .stat-item:hover {
-    transform: scale(1.05);
+    transform: scale(1.10);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
@@ -256,11 +255,7 @@ h1 {
     font-size: 2.5rem;
     font-weight: bold;
     color: #2980b9;
-    margin-bottom: 10px;
-    background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    margin-bottom: 5px;    
 }
 
 .stat-label {
@@ -497,10 +492,11 @@ h1 {
 }
 
 .tag-education { background: linear-gradient(135deg, #f39c12 0%, #f1c40f 100%); }
-.tag-healthcare { background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); }
-.tag-women { background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); }
+.tag-healthcare { background: linear-gradient(135deg, #a8be8b 0%, #7c8d65 100%); }
+.tag-women { background: linear-gradient(135deg, #ff81c6 0%, #ff35a4 100%); }
 .tag-livelihood { background: linear-gradient(135deg, #e67e22 0%, #d35400 100%); }
-.tag-grassroots { background: linear-gradient(135deg, #27ae60 0%, #229954 100%); }
+.tag-youth { background: linear-gradient(135deg, #abd2da 0%, #3aa4b2 100%); }
+.tag-environment { background: linear-gradient(135deg, #27ae60 0%, #229954 100%); }
 .tag-disaster { background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); }
 
 /* Icon Wrapper with Colored Circles */
@@ -523,11 +519,12 @@ h1 {
 }
 
 .icon-education { background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%); }
-.icon-healthcare { background: linear-gradient(135deg, #dfe6e9 0%, #b2bec3 100%); }
-.icon-women { background: linear-gradient(135deg, #dfe4ea 0%, #ced6e0 100%); }
+.icon-healthcare { background: linear-gradient(135deg, #d5dec5 0%, #c0cfa8 100%); }
+.icon-women { background: linear-gradient(135deg,#f4f1f9 0%, #e9e3f1 100%); }
 .icon-livelihood { background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%); }
-.icon-grassroots { background: linear-gradient(135deg, #c8e6c9 0%, #a5d6a7 100%); }
+.icon-environment { background: linear-gradient(135deg, #c8e6c9 0%, #a5d6a7 100%); }
 .icon-disaster { background: linear-gradient(135deg, #b8daff 0%, #92c9ff 100%); }
+.icon-youth { background: linear-gradient(135deg, #b8daff 0%, #92c9ff 100%); }
 
 .program-icon {
     width: 50px;
@@ -552,11 +549,12 @@ h1 {
 }
 
 .program-card h3.education { color: #f39c12; }
-.program-card h3.healthcare { color: #9b59b6; }
-.program-card h3.women { color: #3498db; }
+.program-card h3.healthcare { color: #7c8d65; }
+.program-card h3.women { color: #ff35a4; }
 .program-card h3.livelihood { color: #e67e22; }
 .program-card h3.grassroots { color: #27ae60; }
 .program-card h3.disaster { color: #e74c3c; }
+.program-card h3.youth { color: #3aa4b2; }
 
 .program-card p {
     font-size: 1.05rem;
