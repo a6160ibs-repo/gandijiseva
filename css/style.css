@@ -173,6 +173,18 @@ h1 {
     border-left: 5px solid #2980b9;
 }
 
+.donate-running {
+    font-size: 1.25rem;
+    line-height: 1.9;
+    color: #2c3e50;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
 .who-intro strong {
     color: #2980b9;
     font-weight: 600;
